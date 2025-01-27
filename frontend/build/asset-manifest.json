@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a7e77eff.css",
+    "main.js": "/static/js/main.f69fdfc4.js",
+    "static/media/priority.png": "/static/media/priority.cb993237c25abbd8b4f8.png",
+    "static/media/crisiscontrolcoaching_logo_small.jpg": "/static/media/crisiscontrolcoaching_logo_small.96ec0b10cf1462029746.jpg",
+    "static/media/banner_white.png": "/static/media/banner_white.c6111324fac013c26a0e.png",
+    "index.html": "/index.html",
+    "main.a7e77eff.css.map": "/static/css/main.a7e77eff.css.map",
+    "main.f69fdfc4.js.map": "/static/js/main.f69fdfc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e77eff.css",
+    "static/js/main.f69fdfc4.js"
+  ]
+}
