@@ -44,9 +44,6 @@
   max-width: 1000px;
   margin: auto;
   padding: 10px 0
-
-
-
 }
 .image {
   width: 100%;
@@ -54,12 +51,15 @@
   height: auto;
   margin:  0 0 70px 0;
 }
-.calendar_class {
+.calendar_class  {
   width: 100% !important;
   background: #696969 !important;
-
 }
-
+.calendar_class .react-calendar__tile 
+  {
+  width: 100% !important;
+  background: red !important;
+}
 
 
 .calendar_class button:nth-child(6)  {

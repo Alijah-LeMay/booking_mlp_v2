@@ -31,36 +31,19 @@ const HomeScreen = (props) => {
   const [popUpIsActive, setPopUpIsActive] = useState(false)
   const [infoMessage, setInfoMessage] = useState(null)
   const [formState, setFormState] = useState({
+    typeOfSession: ['Standard life Coaching'],
     name: '',
     email: '',
     // phone: '',
-    typeOfSession: ['Standard life Coaching'],
     // appointmentType: ['30 Minute Session'],
     time: ['9:00AM'],
   })
   const [loadingSubmit, setLoadingSubmit] = useState(false)
   // Form State
   const formConfig = {
-    name: {
-      type: 'input',
-      label: 'Full Name',
-      config: { type: 'text', placeholder: 'Full Name', label: 'Full Name' },
-    },
-    email: {
-      type: 'input',
-      label: 'Email',
-
-      config: { type: 'email', placeholder: 'Email' },
-    },
-    // phone: {
-    //   type: 'input',
-    //   label: 'Phone Number',
-
-    //   config: { type: 'number', placeholder: 'Phone' },
-    // },
     typeOfSession: {
       type: 'select',
-      label: 'Type of Event',
+      label: 'Event Type',
 
       config: {
         type: 'select',
@@ -73,6 +56,24 @@ const HomeScreen = (props) => {
         ],
       },
     },
+    name: {
+      type: 'input',
+      // label: 'Full Name',
+      config: { type: 'text', placeholder: 'Full Name', label: 'Full Name' },
+    },
+    email: {
+      type: 'input',
+      // label: 'Email',
+
+      config: { type: 'email', placeholder: 'Email' },
+    },
+    // phone: {
+    //   type: 'input',
+    //   label: 'Phone Number',
+
+    //   config: { type: 'number', placeholder: 'Phone' },
+    // },
+
     // appointmentType: {
     //   type: 'select',
     //   label: 'Choose Appointment Type',
@@ -90,7 +91,7 @@ const HomeScreen = (props) => {
     // },
     time: {
       type: 'select',
-      label: 'Choose Appointment Time',
+      // label: 'Choose Appointment Time',
 
       config: {
         type: 'select',
@@ -234,7 +235,7 @@ const HomeScreen = (props) => {
               <Loader />
             ) : (
               <MyButton
-                content='Request Coaching'
+                content='Submit'
                 variant='submit'
                 tracking={getQuoteHandler}
                 style={{ margin: '10px 0' }}
