@@ -2,10 +2,10 @@
   "name": "booking_mlp_v2",
   "version": "0.2.0",
   "description": "backend package for booking_mlp_v2",
-  "main": "backend/bookingServer.js",
+  "main": "backend/bookingServerV2.js",
   "scripts": {
     "start": "node backend/server",
-    "server": "nodemon backend/bookingServer",
+    "server": "nodemon backend/bookingServerV2",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
