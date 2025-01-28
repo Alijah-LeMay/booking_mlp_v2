@@ -13,22 +13,23 @@
   "license": "ISC",
   "dependencies": {
     "archiver": "^5.2.0",
-    "axios": "^0.27.2",
+    "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "express-validator": "^6.6.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.23",
-    "multer": "^1.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.4",
     "node-ssh": "^12.0.4",
     "nodemailer": "^6.4.14",
     "ssh2": "^1.10.0"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.22"
   }
 }
